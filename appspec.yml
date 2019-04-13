@@ -22,8 +22,40 @@ os: linux
 #   "files" section altogether. A blank or incomplete "files" section
 #   may cause associated deployments to fail.
 files:
-  - source: ./assets/css/main.css 
-    destination: /var/www/medpass.com/public_html
+  - source: ./assets/css/main.css
+    destination: /var/www/medpass.com/public_html/assets/css
+  - source: ./assets/fonts/FontAwesome.otf
+    destination: /var/www/medpass.com/public_html/assets/fonts
+  - source: ./assets/fonts/fontawesome-webfont.svg
+    destination: /var/www/medpass.com/public_html/assets/fonts
+  - source: ./assets/fonts/fontawesome-webfont.woff
+    destination: /var/www/medpass.com/public_html/assets/fonts
+  - source: ./assets/fonts/fontawesome-webfont.eot
+    destination: /var/www/medpass.com/public_html/assets/fonts
+  - source: ./assets/fonts/fontawesome-webfont.ttf
+    destination: /var/www/medpass.com/public_html/assets/fonts
+  - source: ./assets/fonts/fontawesome-webfont.woff2
+    destination: /var/www/medpass.com/public_html/assets/fonts
+  - source: ./assets/js/breakpoints.min.js
+    destination: /var/www/medpass.com/public_html/assets/js
+  - source: ./assets/js/browser.min.js
+    destination: /var/www/medpass.com/public_html/assets/js
+  - source: ./assets/js/jquery.min.js
+    destination: /var/www/medpass.com/public_html/assets/js
+  - source: ./assets/js/main.js
+    destination: /var/www/medpass.com/public_html/assets/js
+  - source: ./assets/js/util.js
+    destination: /var/www/medpass.com/public_html/assets/js
+  - source: ./contact.php
+    destination: /var/www/medpass.com/public_html/
+  - source: ./index.html
+    destination: /var/www/medpass.com/public_html/
+  - source: ./README.txt
+    destination: /var/www/medpass.com/public_html/
+  - source: ./images/bg.jpg
+    destination: /var/www/medpass.com/public_html/assets/images
+  - source: ./images/overlay.png
+    destination: /var/www/medpass.com/public_html/assets/images
 # For deployments to Amazon Linux, Ubuntu Server, or RHEL instances,
 #   you can specify a "permissions" 
 #   section here that describes special permissions to apply to the files 
