@@ -53,9 +53,9 @@ files:
   - source: ./README.txt
     destination: /var/www/medpass.com/public_html/
   - source: ./images/bg.jpg
-    destination: /var/www/medpass.com/public_html/assets/images
+    destination: /var/www/medpass.com/public_html/images
   - source: ./images/overlay.png
-    destination: /var/www/medpass.com/public_html/assets/images
+    destination: /var/www/medpass.com/public_html/images
 # For deployments to Amazon Linux, Ubuntu Server, or RHEL instances,
 #   you can specify a "permissions" 
 #   section here that describes special permissions to apply to the files 
