@@ -24,50 +24,6 @@ os: linux
 files:
   - source: ./assets/css/main.css 
     destination: /var/www/medpass.com/public_html
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
-  - source:
-    destination:
 # For deployments to Amazon Linux, Ubuntu Server, or RHEL instances,
 #   you can specify a "permissions" 
 #   section here that describes special permissions to apply to the files 
